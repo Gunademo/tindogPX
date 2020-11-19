@@ -27,6 +27,15 @@ function login() {
                 var acc_id = "WIP";
                 var acc_name = "Wipro Ltd";
             }
+          
+          
+            analytics.identify( id , {
+              email: email
+          });
+          
+            analytics.group(acc_id, {
+              name: acc_name
+            });
 
 
 
