@@ -31,7 +31,8 @@ function login() {
           
             analytics.identify( id , {
               email: email,
-              attr1:"Attribute1"
+              attr1:"Attribute1",
+              Language:"English"
           });
           
             analytics.group(acc_id, {
