@@ -30,7 +30,8 @@ function login() {
           
           
             analytics.identify( id , {
-              email: email
+              email: email,
+              attr1:"Attribute1"
           });
           
             analytics.group(acc_id, {
