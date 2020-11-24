@@ -67,6 +67,12 @@ function login() {
 
 }
 
+
+function tindogCustomevent(){
+ aptrinsic('track', 'tindogCustomevent'); 
+   
+}
+
 function kill_session() {
     if (window.XMLHttpRequest) { // code for IE7+, Firefox, Chrome, Opera, Safari
         xmlhttp = new XMLHttpRequest();
