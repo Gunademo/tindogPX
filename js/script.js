@@ -12,7 +12,7 @@ function login() {
 
     if (email != "") {
 
-        if (email == "demo1a@app.com" || email == "demo2a@app.com" || email == "demo1w@wip.com" || email == "demo2w@wip.com") {
+        if (email.matches("demo*")) {
             alert("valid User");
             id_var = email.split("@");
             var id = id_var[0];
@@ -26,6 +26,10 @@ function login() {
             if (email == "demo1w@wip.com" || email == "demo2w@wip.com") {
                 var acc_id = "WIP";
                 var acc_name = "Wipro Ltd";
+            }
+          if (email == "demo1i@inf.com" || email == "demo2i@inf.com") {
+                var acc_id = "INFY";
+                var acc_name = "Infosys Limited";
             }
           
           
