@@ -12,7 +12,7 @@ function login() {
 
     if (email != "") {
 
-        if (email.matches("demo*")) {
+        if (email.match("demo*")) {
             alert("valid User");
             id_var = email.split("@");
             var id = id_var[0];
